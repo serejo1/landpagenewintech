@@ -1,0 +1,42 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "db",
+    "server",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://33pdXvqdhhqRWnh.f1ee7a60b025:211PCoDBPL4z5u6GpCvl@gateway02.us-east-1.prod.aws.tidbcloud.com:4000/R3GMeRq7PgU6ua6TraHe98?ssl={\"rejectUnauthorized\":true}",
+    "DRIZZLE_DATABASE_URL": "mysql://33pdXvqdhhqRWnh.f1ee7a60b025:211PCoDBPL4z5u6GpCvl@gateway02.us-east-1.prod.aws.tidbcloud.com:4000/R3GMeRq7PgU6ua6TraHe98?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/R3GMeRq7PgU6ua6TraHe98.git",
+    "expiration": "2026-07-05T17:35:34.383Z",
+    "token": "art_v1_5df890a053cbc2dcccc2f1c7fb18cb93d0f9f363?expires=1783272934",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "intech-landing",
+  "path": "/home/ubuntu/intech-landing",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "3zbKVzGoTDaCZ7CvKisrgV",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "GOOGLE_SHEETS_WEBHOOK_URL": "https://script.google.com/macros/s/AKfycbyftgEu2MpALKF_4snhgymmBHnHyQVRW1VItqNlk2aT4YFyiv4CS8HoVbcey1fv-u4kmg/exec",
+    "JWT_SECRET": "kqwFpwUGLrJkjESiCgn58A",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Next Marketing",
+    "OWNER_OPEN_ID": "js7wgBCcVoBEc3c9mWVbhg",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "d45d804f-e954-4733-bf8b-32de0dfd0ab3",
+    "VITE_APP_ID": "R3GMeRq7PgU6ua6TraHe98",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663141095459/aFhtPNIhVOXipraQ.png",
+    "VITE_APP_TITLE": "InTech — Seu Futuro Começa Aqui",
+    "VITE_FRONTEND_FORGE_API_KEY": "Lh4mYXJvXdFi9WyYukWfmz",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
