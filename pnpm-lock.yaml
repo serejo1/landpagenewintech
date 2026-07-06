@@ -7,11 +7,6 @@ settings:
 overrides:
   tailwindcss>nanoid: 3.3.7
 
-patchedDependencies:
-  wouter@3.7.1:
-    hash: 4e16e6ff3fde7d6c1024d3e0c8605dc9eb6afb690d0d49958c2f449091813072
-    path: patches/wouter@3.7.1.patch
-
 importers:
 
   .:
@@ -204,7 +199,7 @@ importers:
         version: 1.1.2(@types/react-dom@19.2.1(@types/react@19.2.1))(@types/react@19.2.1)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
       wouter:
         specifier: ^3.3.5
-        version: 3.7.1(patch_hash=4e16e6ff3fde7d6c1024d3e0c8605dc9eb6afb690d0d49958c2f449091813072)(react@19.2.1)
+        version: 3.7.1(react@19.2.1)
       zod:
         specifier: ^4.1.12
         version: 4.1.12
@@ -248,9 +243,6 @@ importers:
       esbuild:
         specifier: ^0.25.0
         version: 0.25.10
-      pnpm:
-        specifier: ^10.15.1
-        version: 10.18.1
       postcss:
         specifier: ^8.4.47
         version: 8.5.6
@@ -3550,11 +3542,6 @@ packages:
 
   pkg-types@2.3.0:
     resolution: {integrity: sha512-SIqCzDRg0s9npO5XQ3tNZioRY1uK06lA41ynBC1YmFTmnY6FjUjVt6s4LoADmwoig1qqD0oK8h1p/8mlMx8Oig==}
-
-  pnpm@10.18.1:
-    resolution: {integrity: sha512-d6iEoWXLui2NHBnjtIgO7m0vyr0Nh5Eh4oIZa4AEI1HV6zygk1+lmdodxRJlzGiBatK93Sot5eqf35KtvsfNNA==}
-    engines: {node: '>=18.12'}
-    hasBin: true
 
   points-on-curve@0.2.0:
     resolution: {integrity: sha512-0mYKnYYe9ZcqMCWhUjItv/oHjvgEsfKvnUTg8sAtnHr3GVy7rGkXCb6d5cSyqrWqL4k81b9CPg3urd+T7aop3A==}
@@ -7634,8 +7621,6 @@ snapshots:
       exsolve: 1.0.7
       pathe: 2.0.3
 
-  pnpm@10.18.1: {}
-
   points-on-curve@0.2.0: {}
 
   points-on-path@0.2.1:
@@ -8357,7 +8342,7 @@ snapshots:
       siginfo: 2.0.0
       stackback: 0.0.2
 
-  wouter@3.7.1(patch_hash=4e16e6ff3fde7d6c1024d3e0c8605dc9eb6afb690d0d49958c2f449091813072)(react@19.2.1):
+  wouter@3.7.1(react@19.2.1):
     dependencies:
       mitt: 3.0.1
       react: 19.2.1
